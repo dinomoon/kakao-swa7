@@ -1,0 +1,36 @@
+header {
+  background-color: rgba(70, 57, 56, 0.91);
+  color: white;
+  padding: 14px;
+}
+
+.header__header-top {
+  display: flex;
+  justify-content: space-between;
+}
+
+.header__header-bottom {
+  display: flex;
+  justify-content: space-between;
+}
+
+.header__header-top .column {
+  margin-bottom: 17px;
+}
+
+.kakaotalk {
+  font-size: 17px;
+}
+
+.column .user {
+  padding-right: 25px;
+  padding-left: 14px;
+}
+
+.column .bell {
+  padding-right: 8px;
+}
+
+a {
+  color: inherit;
+}
