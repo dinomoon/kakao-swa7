@@ -1,12 +1,13 @@
 header {
   background-color: rgba(70, 57, 56, 0.91);
-  color: white;
-  padding: 14px;
+  color: rgba(255, 255, 255, 0.2);
+  padding: 12px 12px 24px 12px;
 }
 
 .header__header-top {
   display: flex;
   justify-content: space-between;
+  margin-bottom: 5px;
 }
 
 .header__header-bottom {
@@ -20,6 +21,7 @@ header {
 
 .kakaotalk {
   font-size: 17px;
+  color: white;
 }
 
 .column .user {
@@ -33,4 +35,11 @@ header {
 
 a {
   color: inherit;
+}
+
+a:hover {
+  color: rgba(255, 255, 255, 0.6);
+}
+.clicked {
+  color: white;
 }
