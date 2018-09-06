@@ -1,0 +1,8 @@
+.chats-header .section-header {
+  display: flex;
+  color: rgba(0, 0, 0, 0.4);
+  padding: 15px;
+  border-bottom: 1px solid #ebebeb;
+  font-size: 13px;
+  justify-content: space-between;
+}
