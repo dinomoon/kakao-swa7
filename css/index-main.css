@@ -24,15 +24,28 @@
   margin: 10px;
 }
 
-.my_profile-flex {
-  border-bottom: 1px solid rgba(0, 0, 0, 0.1);
+.my_profile-flex,
+.my_friends-flex {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+
+.status-message {
+  font-size: 10px;
+  background: #f0f0f0;
+  padding: 10px 10px;
+  border-radius: 5px;
+  color: #939393;
+  margin-right: 10px;
 }
 
 .friends-row {
   display: flex;
   align-items: center;
 }
-.friends-row:hover {
+.my_friends-flex:hover,
+.my_profile-flex:hover {
   background-color: #ebebeb;
 }
 
