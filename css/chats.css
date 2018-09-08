@@ -6,3 +6,33 @@
   font-size: 13px;
   justify-content: space-between;
 }
+
+.chats__list li {
+  border-bottom: 1px solid rgba(0, 0, 0, 0.1);
+}
+
+.chats__list img {
+  margin: 15px;
+  width: 50px;
+  height: 50px;
+  border-radius: 50%;
+}
+
+.chats__list a {
+  text-decoration: none;
+  display: flex;
+  align-items: center;
+}
+
+.chats__list .chats-preview-content {
+  color: rgba(0, 0, 0, 0.4);
+  font-size: 12px;
+}
+
+.chats__list .chats-user {
+  margin-bottom: 7px;
+}
+
+.chats__list a:hover {
+  background-color: #ebebeb;
+}
