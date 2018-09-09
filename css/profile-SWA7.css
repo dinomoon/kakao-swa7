@@ -1,5 +1,39 @@
 .profile img {
-  width: 50px;
-  height: 50px;
+  width: 100px;
+  height: 100px;
   border-radius: 50%;
+  margin-bottom: 10px;
+}
+
+a {
+  color: rgba(0, 0, 0, 0.4);
+}
+
+a:hover {
+  color: white;
+}
+
+.profile-section {
+  /* vh : view for height...80vh: 스크린의 80% */
+  height: 80vh;
+  background-image: url("../images/avatar.jpg");
+  background-size: 100%;
+  width: 100%;
+  position: relative;
+  top: -60px;
+  display: flex;
+  flex-direction: column;
+  justify-content: flex-end;
+  align-items: center;
+}
+
+.profile-container {
+  text-align: center;
+  position: relative;
+  bottom: -50px;
+}
+
+.profile-header-column {
+  display: flex;
+  justify-content: flex-end;
 }
