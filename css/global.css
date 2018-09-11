@@ -1,0 +1,17 @@
+main {
+  animation: 0.5s bodyPopIn ease-in-out;
+}
+
+@keyframes bodyPopIn {
+  from {
+    /* 투명도 0에서 */
+    opacity: 0;
+    /* 10px아래에서부터 올라오기! */
+    transform: translateY(10px);
+  }
+  to {
+    /* 투명도 1로! */
+    opacity: 1;
+    transform: none;
+  }
+}
