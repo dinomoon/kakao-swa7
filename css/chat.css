@@ -23,8 +23,8 @@
   display: flex;
   align-items: center;
   justify-content: space-between;
-  background-color: #3498db;
-  color: #bdc3c7;
+  background-color: #9dc8e8;
+  color: #656c70;
   height: 75px;
 }
 
@@ -52,23 +52,29 @@
 .chat-right_message {
   display: flex;
   justify-content: flex-end;
+  font-size: 14px;
 }
 
 .chat-left_message {
   display: flex;
   justify-content: flex-start;
   align-items: center;
+  font-size: 14.5px;
+  margin-top: 20px;
 }
 
 .chat-user {
-  margin-bottom: 10px;
+  margin-bottom: 6px;
+  font-size: 14px;
 }
 
 .chat-chat-text {
   background-color: white;
-  padding: 6px;
+  padding: 8px;
   border-radius: 5px;
   font-size: 14px;
+  margin-right: 10px;
+  line-height: 20px;
 }
 
 .yellow_message {
