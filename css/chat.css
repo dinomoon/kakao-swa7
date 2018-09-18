@@ -58,7 +58,6 @@
 .chat-left_message {
   display: flex;
   justify-content: flex-start;
-  align-items: center;
   font-size: 14.5px;
   margin-top: 20px;
 }
@@ -66,6 +65,7 @@
 .chat-user {
   margin-bottom: 6px;
   font-size: 14px;
+  margin-top: 14px;
 }
 
 .chat-chat-text {
